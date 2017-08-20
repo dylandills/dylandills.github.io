@@ -383,7 +383,7 @@ html {
   font-family: 'Montserrat', sans-serif; }
 
 .title {
-  padding: 5em;
+  padding-top: 10em;
   color: #fff; }
   .title h1, .title h2 {
     margin: auto;
@@ -405,12 +405,12 @@ html {
   100% {
     transform: translate3d(0, 25px, 0); } }
 nav {
-  z-index: 999;
+  margin-top: -1em;
+  z-index: 99999;
+  position: fixed;
   height: 15vh;
   line-height: 15vh;
   width: 100%;
-  background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 0 10px #4b4b4b;
   -webkit-transition: .5s;
   transition: .5s; }
 
