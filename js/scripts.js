@@ -56,7 +56,6 @@ window.onload = function() {
 };
 $(document).ready(function() {
 
-  console.log('hello there');
 
   $('.fa-bars').click(function() {
       $('.text-menu').toggleClass('menu-appear');
