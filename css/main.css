@@ -369,8 +369,98 @@ template {
 [hidden] {
   display: none; }
 
+p {
+  font-weight: bold; }
+
+/*Sidebar nav*/
+#fp-nav .fp-tooltip {
+  font-family: "Share Tech Mono", Helvetica, Arial, sans-serif !important; }
+
 ul {
   list-style: none; }
+
+i:hover {
+  color: #30c9e8; }
+
+/*For Slider*/
+.intro .title-logo {
+  font-size: 5em;
+  color: #fff;
+  margin: 0; }
+
+/*Section for Fullpage.js*/
+.section {
+  text-align: center; }
+
+#section1, #section2, #section3 {
+  background-color: #fff; }
+
+/*Sidebar Nav*/
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: #FAEBD7; }
+
+hr {
+  width: 25%;
+  border: -.5px solid #000; }
+
+/*Paralax Background*/
+.parallax-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.parallax {
+  position: relative !important;
+  z-index: 1 !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/*Button*/
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.btn {
+  display: inline-block;
+  position: relative;
+  font-weight: 400;
+  font-size: 0.85em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 1.55em 3em;
+  margin: 2em 2em;
+  transition: all 0.65s;
+  border-radius: 30px;
+  color: #ffffff;
+  background: #30c9e8; }
+
+.btn:hover {
+  color: #30c9e8;
+  letter-spacing: 3px;
+  background: #ffffff;
+  box-shadow: 5px 30px 60px #888888; }
 
 html {
   background-image: url(/Users/dylandills/Desktop/you-got-this/img/office.png);
@@ -557,5 +647,68 @@ nav .fa {
 
   #nav .fa {
     display: block; } }
+p {
+  text-align: center; }
+
+.box-content {
+  padding: 20px; }
+
+.three-column {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
+  margin: auto;
+  width: auto;
+  padding: 3em; }
+
+.keep-together {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+  display: table; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .three-column {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px; } }
+@media (min-width: 1024px) {
+  .three-column {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px; } }
+#portfolio {
+  padding: 20em;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+
+.fp-controlArrow.fp-prev, .fp-controlArrow.fp-next {
+  border-color: transparent #30c9e8; }
+
+img {
+  width: 600px;
+  height: 300px; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 5em; }
+
+.fa-github, .fa-linkedin-square, .fa-facebook-square, .fa-twitter-square, .fa-instagram {
+  color: #000;
+  flex-direction: row;
+  margin-right: 2.5em; }
 
 /*# sourceMappingURL=main.css.map */

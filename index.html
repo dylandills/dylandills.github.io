@@ -25,29 +25,101 @@
           <i class="fa fa-bars"></i>
 
           <ul class="text-menu">
+            <li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
             <span class="slash">/</span>
-            <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Skills</a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">Skills</a></li>
             <span class="slash">/</span>
-            <li data-menuanchor="secondPage"><a href="#secondPage">Portfolio</a></li>
+            <li data-menuanchor="3rdPage"><a href="#3rdPage">Portfolio</a></li>
             <span class="slash">/</span>
-            <li data-menuanchor="#3rdPage"><a href="#3rdPage">Contact</a></li>
+            <li data-menuanchor="4thpage"><a href="#4thpage">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="splash">
-      <div class="title">
-        <h1>Hi! My name is Dylan. I am a
-          <span
-          class="txt-rotate"
-          data-period="2000"
-          data-rotate='[ "developer", "designer.", "cat lover.", "nerd", "creator" ]'></span>
-          <br>
-          <svg viewBox="0 0 68 33" class="chevron-down">
-            <path d="M.58 3.414l27.432 27.433c2.715 2.715 7.167 2.787 9.964.164L67.356 3.46 64.62.54 35.24 28.093c-1.222 1.146-3.212 1.114-4.4-.075L3.408.586.579 3.414z"></path>
-          </svg>
-        </h1>
+    <div id="fullpage">
+      <div class="section active splash" id="section0">
+        <div class="title">
+          <h1>Hi! My name is Dylan. I am a
+            <span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "developer", "designer.", "cat lover.", "nerd", "creator" ]'></span>
+            <br>
+            <svg viewBox="0 0 68 33" class="chevron-down">
+              <path d="M.58 3.414l27.432 27.433c2.715 2.715 7.167 2.787 9.964.164L67.356 3.46 64.62.54 35.24 28.093c-1.222 1.146-3.212 1.114-4.4-.075L3.408.586.579 3.414z"></path>
+            </svg>
+          </h1>
+        </div>
       </div>
+<!---Start of Skills-->
+      <div class="section" id="section1">
+        <h1>Skills</h1>
+        <hr>
+        <div class="three-column">
+          <div class="keep-together"><span><i class="fa fa-globe fa-3x" aria-hidden="true"></i></span><h2>Cultivate</h2>I cultivate and foster growth within myself, and whomever is around me. After working in social work for 10 years, I have a deep compassion of people and carry that empathy into everything I do. I love building and working with others, especially when it will benefit the community at large.</div>
+          <div class="keep-together"><span><i class="fa fa-code fa-3x" aria-hidden="true"></i></span><h2>Code</h2>I am coding wizard. I understand and feel confident with HTML5, CSS3/Sass, and vanilla Javascript. I have been privileged enough to learn frameworks within Javascript, such as Node.js, AngularJs, and React. Code is beyond a career choice for me; coding is a passion.</div>
+           <div class="keep-together"><span><i class="fa fa-pencil fa-3x" aria-hidden="true"></i></span><h2>Design</h2>I am budding designer who loves to work with tools like Sketch and Illustrator. I find inspiration through music, nature, and photography. I have created a design process for myself that allows me to understand, define, and brainstorm prototypes into beautiful works of art.</div>
+        </div>
+      </div>
+<!---End of Skills-->
+<!---Start of Portfolio-->
+      <div class="section" id="section2">
+        <div class="slide active">
+    			<div class="intro">
+    				<h3>Packpartout</h3>
+    				<p>Web app that suggests what to pack for your next vacation, depending on your needs.</p>
+            <div class="packpartout"><img src="img/packpartout.png" alt=""></div>
+            <div class="container">
+              <a href="https://github.com/dylandills/packpartout" class="btn">CLICK FOR MORE</a>
+            </div>
+    			</div>
+  		  </div>
+    	  <div class="slide">
+    			<div class="intro">
+            <h3>Better Doctor</h3>
+            <p>An application in which users submit a form and receive a list of doctors nearby who can treat their medical issue. Utilizes node.js, moment, and API's.</p>
+            <div class="doctor"><img src="img/doctor.png" alt=""></div>
+            <div class="container">
+              <a href="https://github.com/dylandills/better-doctor" class="btn">CLICK FOR MORE</a>
+            </div>
+    			</div>
+    		</div>
+  	    <div class="slide">
+    			<div class="intro">
+    				<h3>Drumkick</h3>
+            <p>Application utilizing JavaScript that plays the note of the sound written on the object.</p>
+            <div class="drum-kick"><img src="img/drum-kick.png" alt=""></div>
+            <div class="container">
+              <a href="https://github.com/dylandills/drum-kick/tree/gh-pages" class="btn">CLICK FOR MORE</a>
+            </div>
+    			</div>
+  		  </div>
+  	    <div class="slide">
+    			<div class="intro">
+
+    			</div>
+  		  </div>
+      </div>
+<!---Start of Contact-->
+      <div class="section" id="section3">
+        <div class="content contact">
+          <h1>Contact Me</h1>
+          <hr>
+          <h3>Working on a project? Currently hiring? Just want to talk? Let's chat</h3>
+          <div class="container">
+            <a href="mailto:dylan.dills@gmail.com" class="btn">Get Started</a>
+          </div>
+        </div>
+        <ul class="footer">
+          <li><a href="http://www.github.com/dylandills" class="icon"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="http://www.linkedin.com/in/dylanedills" class="icon"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="http://www.facebook.com/ddillsdev" class="icon"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li>
+          <li> <a href="http://www.twitter.com/ddillsdev" class="icon"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="http://www.instagram.com/ddillsdev" class="icon"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+  <!---End of Contact-->
     </div>
+<!---End of FullPage-->
   </body>
 </html>

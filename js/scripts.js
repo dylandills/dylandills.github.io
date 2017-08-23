@@ -66,3 +66,13 @@ $(document).ready(function() {
       $('.text-menu').toggleClass('menu-appear');
   });
 });
+$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Page 1', 'Page 2', 'Page 3', 'Page 4'],
+        scrollingSpeed: 900,
+        scrollOverflow: true
+			});
+		});

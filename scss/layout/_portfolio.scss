@@ -1,0 +1,14 @@
+#portfolio {
+  padding: 20em;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.fp-controlArrow.fp-prev, .fp-controlArrow.fp-next {
+  border-color: transparent #30c9e8;
+}
+img{
+  width: 600px;
+  height: 300px;
+}
