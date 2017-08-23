@@ -462,7 +462,7 @@ hr {
   background: #ffffff;
   box-shadow: 5px 30px 60px #888888; }
 
-html {
+body {
   background-image: url("../img/office.png");
   background-position: center center fixed;
   background-repeat: no-repeat;
