@@ -11,4 +11,7 @@
 img{
   width: 600px;
   height: 300px;
+  @include mobile {
+    width: 500px;
+  }
 }
