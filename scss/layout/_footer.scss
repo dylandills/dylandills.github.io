@@ -8,4 +8,7 @@
   color: #000;
   flex-direction: row;
   padding-right: 1.5em;
+  @include mobile {
+    padding-right: 1em;
+  }
 }
