@@ -52,6 +52,25 @@ nav .text-menu {
     :hover {
       color: #30c9e8;
     }
+  @include mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: wrap column;
+    -ms-flex-flow: wrap column;
+    flex-flow: wrap column;
+    position: absolute;
+    top: -95vh;
+    left: 0;
+    background: white;
+    width: 100%;
+    height: 90vh;
+    text-align: left;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: -1;
+  }
 }
 
 nav p {
@@ -79,11 +98,17 @@ nav a:hover {
 
 nav .slash {
     color: #d5d5d5;
+  @include mobile {
+    display: none;
+  }
 }
 nav .fa {
     display: none;
     color: #366284;
     margin-top: 3.75vh;
+  @include mobile {
+    display: block;
+  }
 }
 
 
@@ -110,74 +135,22 @@ nav .fa {
 
 @include mobile {
 
-    #nav .text-menu {
-        position: inherit;
-        top: -85vh;
-        left: 0;
-        background: white;
-        width: 100%;
-        height: 85vh;
-        text-align: center;
-        -webkit-transition: 0.5s;
-        transition: 0.5s;
-        z-index: -1;
-    }
+  nav .six {
+      width: 50%;
+  }
 
-    #nav .text-menu * {
-        height: 12vh;
-    }
+  nav .text-menu * {
+      height: 15vh;
+  }
 
-    #nav .menu-appear {
-        position: absolute;
-        top: 15vh;
-        -webkit-transition: 0.5s;
-        transition: 0.5s;
-    }
+  nav .text-menu a:hover+ul {
+      display: none;
+  }
 
-    #nav .fa {
-        display: block;
-    }
-
-    #nav .six {
-        width: 48%;
-    }
-
-    #nav .text-menu {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-flow: wrap column;
-        -ms-flex-flow: wrap column;
-        flex-flow: wrap column;
-        position: absolute;
-        top: -85vh;
-        left: 0;
-        background: white;
-        width: 100%;
-        height: 85vh;
-        text-align: center;
-        -webkit-transition: 0.5s;
-        transition: 0.5s;
-        z-index: -1;
-    }
-
-    #nav .text-menu * {
-        height: 15vh;
-    }
-
-    #nav .text-menu a:hover+ul {
-        display: none;
-    }
-
-    #nav .menu-appear {
-        position: absolute;
-        top: 15vh;
-        -webkit-transition: 0.5s;
-        transition: 0.5s;
-    }
-
-    #nav .fa {
-        display: block;
-    }
+  nav .menu-appear {
+      position: absolute;
+      top: 15vh;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+  }
 }

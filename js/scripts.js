@@ -54,17 +54,21 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
 $(document).ready(function() {
 
+    console.log('Document ready');
 
-  $('.fa-bars').click(function() {
-      $('.text-menu').toggleClass('menu-appear');
-  });
+    $('.fa-bars').click(function() {
+        $('.text-menu').toggleClass('menu-appear');
+    });
 
-  $('nav .text-menu a').click(function() {
-      $('.text-menu').toggleClass('menu-appear');
-  });
+    $('nav .text-menu a').click(function() {
+        $('.text-menu').toggleClass('menu-appear');
+    });
+
 });
+
 $(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
@@ -73,5 +77,5 @@ $(document).ready(function() {
 				navigationTooltips: ['Page 1', 'Page 2', 'Page 3', 'Page 4'],
         scrollingSpeed: 900,
         scrollOverflow: true
-			});
-		});
+	});
+});
