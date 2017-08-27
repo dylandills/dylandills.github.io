@@ -29,6 +29,9 @@ body {
   width: 1em;
   height: 1em;
   animation: hover-me .5s infinite ease-in-out alternate;
+  @include mobile {
+    margin: 2em;
+  }
 }
 
 @keyframes hover-me {

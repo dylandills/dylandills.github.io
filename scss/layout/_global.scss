@@ -7,7 +7,6 @@ i:hover {
 }
 /*For Slider*/
 .intro .title-logo{
-	font-size: 5em;
 	color: #fff;
 	margin:0;
 }
@@ -22,15 +21,14 @@ i:hover {
 
 /*Sidebar Nav*/
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
-  background:#FAEBD7;
-
+  background:#000;
 }
 
 hr {
   width: 25%;
   border: -.5px solid #000;
 }
-/*Paralax Background*/
+/*Parallax Background*/
 .parallax-background {
   position: absolute;
   top: 0;
@@ -73,16 +71,16 @@ hr {
   display: inline-block;
 	position: relative;
   font-weight: 400;
-  font-size: 0.85em;
+  font-size: 1em;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
 	letter-spacing: 1px;
-	padding: 1.55em 3em;
+	padding: 2em 3em;
 	margin: 2em 2em;
 	transition: all 0.65s;
   border-radius: 30px;
-	color: #ffffff;
+	color: #fff;
 	background: #30c9e8;
 }
 
