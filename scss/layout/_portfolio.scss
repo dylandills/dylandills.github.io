@@ -3,14 +3,18 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  padding: 1em;
+}
+.fp-controlArrow.fp-next  {
+  margin-right: 2em;
+}
+.fp-controlArrow.fp-prev {
+  margin-left: 2em;
 }
 .fp-controlArrow.fp-prev, .fp-controlArrow.fp-next {
   border-color: transparent #30c9e8;
 }
 img{
-  width: 600px;
+  width: 500px;
   height: 300px;
-  @include mobile {
-    width: 500px;
-  }
 }

@@ -74,7 +74,8 @@ $(document).ready(function() {
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 				navigation: true,
 				navigationPosition: 'right',
-        scrollingSpeed: 900,
-        scrollOverflow: true
+        fitToSection: true,
+        scrollingSpeed: 1000,
+        autoScrolling: false
 	});
 });

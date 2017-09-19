@@ -6,8 +6,5 @@
 .fa-github, .fa-linkedin-square, .fa-facebook-square, .fa-twitter-square, .fa-instagram {
   color: #000;
   flex-direction: row;
-  padding-right: 1.5em;
-  @include mobile {
-    padding-right: 1em;
-  }
+  padding-right: 1em;
 }

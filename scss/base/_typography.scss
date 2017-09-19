@@ -5,11 +5,24 @@ body {
 p {
   font-weight: bold;
 }
-
+.btn {
+  font-weight: 400;
+  font-size: 1em;
+}
 /*Sidebar nav*/
 #fp-nav .fp-tooltip{
   font-family: "Share Tech Mono", Helvetica, Arial, sans-serif !important;
 }
+/*Splash*/
+.title {
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+}
+
 /*For Slider*/
 .intro .title-logo{
 	font-size: 5em;
