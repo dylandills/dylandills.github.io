@@ -375,47 +375,74 @@ body {
 .btn {
   font-weight: 400;
   font-size: 40px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .btn {
+      font-size: 22px; } }
 
 /*Nav*/
 nav .text-menu {
   font-size: 64px; }
   @media (min-width: 768px) and (max-width: 1023px) {
     nav .text-menu {
-      font-size: 24px; } }
+      font-size: 32px; } }
+  @media (min-width: 1024px) {
+    nav .text-menu {
+      font-size: 32px; } }
 
 /*Splash*/
 .title {
   font-size: 42px; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .title {
-      font-size: 28px; } }
+      font-size: 20px; } }
+  @media (min-width: 1024px) {
+    .title {
+      font-size: 20px; } }
 
 /*Skills*/
 #section1 h1 {
   font-size: 64px; }
   @media (min-width: 768px) and (max-width: 1023px) {
     #section1 h1 {
-      font-size: 28px; } }
+      font-size: 22px; } }
+
+#section1 h2 {
+  font-size: 32px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #section1 h2 {
+      font-size: 20px; } }
 
 .three-column {
   font-size: 40px; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .three-column {
-      font-size: 22px; } }
+      font-size: 18px; } }
 
 /*Portfolio*/
 #section2 h3 {
   font-size: 48px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #section2 h3 {
+      font-size: 22px; } }
 
 #section2 p {
   font-size: 38px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #section2 p {
+      font-size: 18px; } }
 
 /*Contact*/
 .contact h1 {
   font-size: 64px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .contact h1 {
+      font-size: 22px; } }
 
 .contact p {
   font-size: 54px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .contact p {
+      font-size: 22px; } }
 
 ul {
   list-style: none; }
@@ -538,9 +565,6 @@ nav {
   width: 100%;
   -webkit-transition: .5s;
   transition: .5s; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    nav {
-      height: 15vh; } }
 
 nav img {
   margin-top: 1vh; }
@@ -588,20 +612,6 @@ nav .text-menu {
     margin-right: 2em; }
   nav .text-menu :hover {
     color: #30c9e8; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    nav .text-menu {
-      -webkit-flex-flow: wrap row;
-      -ms-flex-flow: wrap row;
-      flex-flow: wrap row;
-      -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      color: #000;
-      position: inherit;
-      height: 10vh;
-      top: 0;
-      left: auto;
-      background: none; } }
 
 nav p {
   display: inline;
@@ -624,17 +634,11 @@ nav a:hover {
 
 nav .slash {
   display: none; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    nav .slash {
-      color: #d5d5d5; } }
 
 nav .fa {
   display: block;
   color: #366284;
   margin-top: 3.75vh; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    nav .fa {
-      display: none; } }
 
 .row {
   width: 95%;
@@ -657,9 +661,6 @@ nav .six {
 
 nav .text-menu * {
   height: 15vh; }
-
-nav .text-menu a:hover + ul {
-  display: none; }
 
 nav .menu-appear {
   position: absolute;

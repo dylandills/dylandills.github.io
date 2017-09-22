@@ -6,13 +6,19 @@ body {
 .btn {
   font-weight: 400;
   font-size: 40px;
+  @include tablet {
+    font-size: 22px;
+  }
 }
 
 /*Nav*/
 nav .text-menu {
   font-size: 64px;
   @include tablet {
-    font-size: 24px;
+    font-size: 32px;
+  }
+  @include desktop {
+    font-size: 32px;
   }
 }
 
@@ -20,7 +26,10 @@ nav .text-menu {
 .title {
   font-size: 42px;
   @include tablet {
-    font-size: 28px;
+    font-size: 20px;
+  }
+  @include desktop {
+    font-size: 20px;
   }
 }
 
@@ -28,31 +37,48 @@ nav .text-menu {
 #section1 h1 {
   font-size: 64px;
   @include tablet {
-    font-size: 28px;
+    font-size: 22px;
   }
 }
-
+#section1 h2 {
+  font-size: 32px;
+  @include tablet {
+    font-size: 20px;
+  }
+}
 .three-column {
   font-size: 40px;
   @include tablet {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
 /*Portfolio*/
 #section2 h3 {
   font-size: 48px;
+  @include tablet {
+    font-size: 22px;
+  }
 }
 
 #section2 p {
   font-size: 38px;
+  @include tablet {
+    font-size: 18px;
+  }
 }
 
 /*Contact*/
 .contact h1 {
   font-size: 64px;
+  @include tablet {
+    font-size: 22px;
+  }
 }
 
 .contact p {
   font-size: 54px;
+  @include tablet {
+    font-size: 22px;
+  }
 }

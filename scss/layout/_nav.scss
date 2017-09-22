@@ -1,14 +1,11 @@
 nav {
-    margin-top: -1em;
-    z-index: 99999;
-    position: fixed;
-    line-height: 15vh;
-    width: 100%;
-    -webkit-transition: .5s;
-    transition: .5s;
-  @include tablet {
-    height: 15vh;
-  }
+  margin-top: -1em;
+  z-index: 99999;
+  position: fixed;
+  line-height: 15vh;
+  width: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 nav img {
     margin-top: 1vh;
@@ -37,46 +34,32 @@ nav img:hover {
 }
 
   nav .text-menu {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: wrap column;
-    -ms-flex-flow: wrap column;
-    flex-flow: wrap column;
-    position: absolute;
-    top: -95vh;
-    left: 0;
-    background: #fff;
-    width: 100%;
-    height: 90vh;
-    text-align: center;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    z-index: -1;
-    a {
-      text-decoration: none;
-      color: #3d7baa;
-      margin-right: 2em;
-    }
-    :hover {
-      color: #30c9e8;
-    }
-    @include tablet {
-      -webkit-flex-flow: wrap row;
-      -ms-flex-flow: wrap row;
-      flex-flow: wrap row;
-      -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      color: #000;
-      position: inherit;
-      height: 10vh;
-      top: 0;
-      left: auto;
-      background: none;
-    }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap column;
+  -ms-flex-flow: wrap column;
+  flex-flow: wrap column;
+  position: absolute;
+  top: -95vh;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: -1;
+  a {
+    text-decoration: none;
+    color: #3d7baa;
+    margin-right: 2em;
   }
+  :hover {
+    color: #30c9e8;
+  }
+}
 // }
 
 nav p {
@@ -104,17 +87,11 @@ nav a:hover {
 //
 nav .slash {
     display: none;
-  @include tablet {
-    color: #d5d5d5;
-  }
 }
 nav .fa {
     display: block;
     color: #366284;
     margin-top: 3.75vh;
-  @include tablet {
-    display: none;
-  }
 }
 
 
@@ -141,31 +118,16 @@ nav .fa {
 
 nav .six {
     width: 50%;
-  // @include tablet {
-  //   display: none;
-  // }
 }
 
 nav .text-menu * {
   height: 15vh;
-  // @include tablet {
-  //   display: none;
-  // }
 }
 
-nav .text-menu a:hover+ul {
-  display: none;
-  // @include tablet {
-  //   display: inline-block;
-  // }
-}
 
 nav .menu-appear {
   position: absolute;
   top: 15vh;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  // @include tablet {
-  //   display: none;
-  // }
 }

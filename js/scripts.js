@@ -75,7 +75,7 @@ $(document).ready(function() {
 				navigation: true,
 				navigationPosition: 'right',
         fitToSection: true,
-        scrollingSpeed: 100,
+        // scrollingSpeed: 100,
         autoScrolling: false
 	});
 });
