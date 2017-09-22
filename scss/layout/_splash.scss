@@ -6,7 +6,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Montserrat', sans-serif;
 }
 .title {
   padding-top: 10em;
@@ -22,12 +21,9 @@ body {
 .chevron-down {
   fill: #FFF;
   margin: 3em 5em;
-  width: 1em;
-  height: 1em;
+  width: 1.8em;
+  height: 1.8em;
   animation: hover-me .5s infinite ease-in-out alternate;
-  @include mobile {
-    margin: 2em;
-  }
 }
 
 @keyframes hover-me {

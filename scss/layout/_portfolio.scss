@@ -5,6 +5,10 @@
   flex-direction: row;
   padding: 1em;
 }
+.intro h3 {
+  margin-top: 3em;
+}
+
 .fp-controlArrow.fp-next  {
   margin-right: 2em;
 }
@@ -14,7 +18,8 @@
 .fp-controlArrow.fp-prev, .fp-controlArrow.fp-next {
   border-color: transparent #30c9e8;
 }
+
 img{
-  width: 500px;
-  height: 300px;
+  width: 800px;
+  height: 600px;
 }

@@ -1,29 +1,58 @@
-/*Global Typography*/
+
 body {
-  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
-p {
-  font-weight: bold;
-}
+
 .btn {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 40px;
 }
-/*Sidebar nav*/
-#fp-nav .fp-tooltip{
-  font-family: "Share Tech Mono", Helvetica, Arial, sans-serif !important;
-}
-/*Splash*/
-.title {
-  h1 {
-    font-size: 2.5em;
-  }
-  h2 {
-    font-size: 2em;
+
+/*Nav*/
+nav .text-menu {
+  font-size: 64px;
+  @include tablet {
+    font-size: 24px;
   }
 }
 
-/*For Slider*/
-.intro .title-logo{
-	font-size: 5em;
+/*Splash*/
+.title {
+  font-size: 42px;
+  @include tablet {
+    font-size: 28px;
+  }
+}
+
+/*Skills*/
+#section1 h1 {
+  font-size: 64px;
+  @include tablet {
+    font-size: 28px;
+  }
+}
+
+.three-column {
+  font-size: 40px;
+  @include tablet {
+    font-size: 22px;
+  }
+}
+
+/*Portfolio*/
+#section2 h3 {
+  font-size: 48px;
+}
+
+#section2 p {
+  font-size: 38px;
+}
+
+/*Contact*/
+.contact h1 {
+  font-size: 64px;
+}
+
+.contact p {
+  font-size: 54px;
 }

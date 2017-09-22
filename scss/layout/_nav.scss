@@ -2,11 +2,13 @@ nav {
     margin-top: -1em;
     z-index: 99999;
     position: fixed;
-    height: 15vh;
     line-height: 15vh;
     width: 100%;
     -webkit-transition: .5s;
     transition: .5s;
+  @include tablet {
+    height: 15vh;
+  }
 }
 nav img {
     margin-top: 1vh;
@@ -15,13 +17,13 @@ nav img {
 nav .rest {
     text-align: right;
 }
-
+//
 nav:hover {
     background: rgba(255, 255, 255, 1);
 }
 
 nav img {
-    height: 13vh;
+    height: 10vh;
     width: auto;
     -webkit-transition: 0.2s;
     transition: 0.2s;
@@ -34,25 +36,7 @@ nav img:hover {
     transition: 0.2s;
 }
 
-nav .text-menu {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: wrap row;
-    -ms-flex-flow: wrap row;
-    flex-flow: wrap row;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    a {
-      text-decoration: none;
-      color: #3d7baa;
-    }
-    :hover {
-      color: #30c9e8;
-    }
-  @include mobile {
+  nav .text-menu {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -63,21 +47,43 @@ nav .text-menu {
     position: absolute;
     top: -95vh;
     left: 0;
-    background: white;
+    background: #fff;
     width: 100%;
     height: 90vh;
-    text-align: left;
+    text-align: center;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     z-index: -1;
+    a {
+      text-decoration: none;
+      color: #3d7baa;
+      margin-right: 2em;
+    }
+    :hover {
+      color: #30c9e8;
+    }
+    @include tablet {
+      -webkit-flex-flow: wrap row;
+      -ms-flex-flow: wrap row;
+      flex-flow: wrap row;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      color: #000;
+      position: inherit;
+      height: 10vh;
+      top: 0;
+      left: auto;
+      background: none;
+    }
   }
-}
+// }
 
 nav p {
-    display: inline;
-    position: relative;
+  display: inline;
+  position: relative;
 }
-
+//
 nav > div > div > div > div > a {
     display: block;
     color: #366284;
@@ -85,29 +91,29 @@ nav > div > div > div > div > a {
     -webkit-transition: .2s;
     transition: .2s;
 }
-
+//
 nav > div > div > div > div > a:hover {
     color: #6f6f6f;
 }
 
 nav a:hover {
-    opacity: 1;
-    visibility: visible;
-    color: #30c9e8;
+  opacity: 1;
+  visibility: visible;
+  color: #30c9e8;
 }
-
+//
 nav .slash {
-    color: #d5d5d5;
-  @include mobile {
     display: none;
+  @include tablet {
+    color: #d5d5d5;
   }
 }
 nav .fa {
-    display: none;
+    display: block;
     color: #366284;
     margin-top: 3.75vh;
-  @include mobile {
-    display: block;
+  @include tablet {
+    display: none;
   }
 }
 
@@ -133,24 +139,33 @@ nav .fa {
 }
 
 
-@include mobile {
+nav .six {
+    width: 50%;
+  // @include tablet {
+  //   display: none;
+  // }
+}
 
-  nav .six {
-      width: 50%;
-  }
+nav .text-menu * {
+  height: 15vh;
+  // @include tablet {
+  //   display: none;
+  // }
+}
 
-  nav .text-menu * {
-      height: 15vh;
-  }
+nav .text-menu a:hover+ul {
+  display: none;
+  // @include tablet {
+  //   display: inline-block;
+  // }
+}
 
-  nav .text-menu a:hover+ul {
-      display: none;
-  }
-
-  nav .menu-appear {
-      position: absolute;
-      top: 15vh;
-      -webkit-transition: 0.5s;
-      transition: 0.5s;
-  }
+nav .menu-appear {
+  position: absolute;
+  top: 15vh;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  // @include tablet {
+  //   display: none;
+  // }
 }

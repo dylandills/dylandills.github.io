@@ -55,9 +55,8 @@ window.onload = function() {
   document.body.appendChild(css);
 };
 
-$(document).ready(function() {
 
-    console.log('Document ready');
+$(document).ready(function() {
 
     $('.fa-bars').click(function() {
         $('.text-menu').toggleClass('menu-appear');
@@ -69,13 +68,14 @@ $(document).ready(function() {
 
 });
 
+
 $(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 				navigation: true,
 				navigationPosition: 'right',
         fitToSection: true,
-        scrollingSpeed: 1000,
+        scrollingSpeed: 100,
         autoScrolling: false
 	});
 });
