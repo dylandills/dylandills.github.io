@@ -9,6 +9,9 @@ body {
   @include tablet {
     font-size: 22px;
   }
+  @include desktop {
+    font-size: 26px;
+  }
 }
 
 /*Nav*/
@@ -29,7 +32,7 @@ nav .text-menu {
     font-size: 20px;
   }
   @include desktop {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
@@ -39,17 +42,26 @@ nav .text-menu {
   @include tablet {
     font-size: 22px;
   }
+  @include desktop {
+    font-size: 28px;
+  }
 }
 #section1 h2 {
   font-size: 32px;
   @include tablet {
     font-size: 20px;
   }
+  @include desktop {
+    font-size: 24px;
+  }
 }
 .three-column {
   font-size: 40px;
   @include tablet {
     font-size: 18px;
+  }
+  @include desktop {
+    font-size: 22px;
   }
 }
 
@@ -59,12 +71,18 @@ nav .text-menu {
   @include tablet {
     font-size: 22px;
   }
+  @include desktop {
+    font-size: 26px;
+  }
 }
 
 #section2 p {
   font-size: 38px;
   @include tablet {
     font-size: 18px;
+  }
+  @include desktop {
+    font-size: 22px;
   }
 }
 
@@ -74,11 +92,17 @@ nav .text-menu {
   @include tablet {
     font-size: 22px;
   }
+  @include desktop {
+    font-size: 26px;
+  }
 }
 
 .contact p {
   font-size: 54px;
   @include tablet {
     font-size: 22px;
+  }
+  @include desktop {
+    font-size: 26px;
   }
 }

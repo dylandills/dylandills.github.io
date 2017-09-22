@@ -378,6 +378,9 @@ body {
   @media (min-width: 768px) and (max-width: 1023px) {
     .btn {
       font-size: 22px; } }
+  @media (min-width: 1024px) {
+    .btn {
+      font-size: 26px; } }
 
 /*Nav*/
 nav .text-menu {
@@ -397,7 +400,7 @@ nav .text-menu {
       font-size: 20px; } }
   @media (min-width: 1024px) {
     .title {
-      font-size: 20px; } }
+      font-size: 24px; } }
 
 /*Skills*/
 #section1 h1 {
@@ -405,18 +408,27 @@ nav .text-menu {
   @media (min-width: 768px) and (max-width: 1023px) {
     #section1 h1 {
       font-size: 22px; } }
+  @media (min-width: 1024px) {
+    #section1 h1 {
+      font-size: 28px; } }
 
 #section1 h2 {
   font-size: 32px; }
   @media (min-width: 768px) and (max-width: 1023px) {
     #section1 h2 {
       font-size: 20px; } }
+  @media (min-width: 1024px) {
+    #section1 h2 {
+      font-size: 24px; } }
 
 .three-column {
   font-size: 40px; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .three-column {
       font-size: 18px; } }
+  @media (min-width: 1024px) {
+    .three-column {
+      font-size: 22px; } }
 
 /*Portfolio*/
 #section2 h3 {
@@ -424,12 +436,18 @@ nav .text-menu {
   @media (min-width: 768px) and (max-width: 1023px) {
     #section2 h3 {
       font-size: 22px; } }
+  @media (min-width: 1024px) {
+    #section2 h3 {
+      font-size: 26px; } }
 
 #section2 p {
   font-size: 38px; }
   @media (min-width: 768px) and (max-width: 1023px) {
     #section2 p {
       font-size: 18px; } }
+  @media (min-width: 1024px) {
+    #section2 p {
+      font-size: 22px; } }
 
 /*Contact*/
 .contact h1 {
@@ -437,12 +455,18 @@ nav .text-menu {
   @media (min-width: 768px) and (max-width: 1023px) {
     .contact h1 {
       font-size: 22px; } }
+  @media (min-width: 1024px) {
+    .contact h1 {
+      font-size: 26px; } }
 
 .contact p {
   font-size: 54px; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .contact p {
       font-size: 22px; } }
+  @media (min-width: 1024px) {
+    .contact p {
+      font-size: 26px; } }
 
 ul {
   list-style: none; }
