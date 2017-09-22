@@ -693,7 +693,7 @@ nav .menu-appear {
   transition: 0.5s; }
 
 #section1 h1 {
-  margin-top: 7em; }
+  margin-top: 5em; }
 
 p {
   text-align: center; }
@@ -741,6 +741,9 @@ p {
 
 .intro h3 {
   margin-top: 3em; }
+  @media (min-width: 1024px) {
+    .intro h3 {
+      margin-top: 5em; } }
 
 .fp-controlArrow.fp-next {
   margin-right: 2em; }
